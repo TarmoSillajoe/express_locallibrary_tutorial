@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get("/kollilaul", function(req, res, next) {
-  res.send("Nun liebe Kinder gebt fein Acht...");
+  res.send("Ich singe, bis der Tag erwacht ein heller Schein auf Firmament.");
 });
 
 module.exports = router;
