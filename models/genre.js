@@ -1,9 +1,9 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-var GenreSchema = (
+var GenreSchema = new Schema(
   {
-    name: {type:String, required:true, max=100
+    name: {type:String, required:true, max: 100
       // , enum['fiction','non-fictioon', 'romance', 'history','biography','science','children','undefined'], default:'undefined'
     }
   }
