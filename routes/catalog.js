@@ -1,6 +1,5 @@
 const express = require('express');
-const express = require('express');
-const router = express.Router();
+var router = express.Router();
 
 // Require controlller modules
 const book_controller = require('../controllers/bookController');

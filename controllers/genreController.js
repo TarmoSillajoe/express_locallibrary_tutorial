@@ -1,4 +1,4 @@
-var genre = require('../models/genre');
+var Genre = require('../models/genre');
 
 //GET genres
 exports.genre_list = function (req,res) {
