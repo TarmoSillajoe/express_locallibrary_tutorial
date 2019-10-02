@@ -8,7 +8,7 @@ var async = require('async');
 
 exports.index = function (req,res) {
   async.parallel({
-    booc_count: function(callback) {
+    book_count: function(callback) {
       Book.countDocuments({}, callback); // Pass an empty object as match condition to find all documents of this collection
     }, 
     book_instance_count: function(callback){
